@@ -1,5 +1,9 @@
 # bpy-Render-Guide
 
+## Reference
+> https://github.com/allenai/objaverse-rendering
+> https://blender.stackexchange.com/questions/144083/how-to-get-blender-2-80-to-render-through-an-ssh-connection-minimal-working-ex/176110#176110
+
 ## EEVEE渲染：
 EEVEE渲染是blender中一个较为基础的渲染模式，它需要指定渲染的屏幕，而一般的Linux服务器中并没有物理的屏幕输出，因此需要开启虚拟屏幕进行渲染。为了充分利用GPU资源，给每一个GPU配置一个虚拟屏幕。多个渲染可以指定在同一个虚拟屏幕上。
 
